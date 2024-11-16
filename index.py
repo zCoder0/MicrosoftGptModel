@@ -1,8 +1,6 @@
 import streamlit as st
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
-from PIL import Image
-
 # Load the DialoGPT model and tokenizer
 @st.cache_resource
 def load_model():
